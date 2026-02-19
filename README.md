@@ -9,6 +9,7 @@
 
 
 ## COMANDOS DE GIT
+
 1. git  init
 2. git log
 3. git status
