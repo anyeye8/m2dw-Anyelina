@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ 
+    main{
+        display: grid;
+        width: 100%;
+        justify-content: center;
+    }
+    form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        background-color: #ebebeb;
+        width: 100%;
+        padding: 10px;
+    }
+</style>
+<body>
+    <main>
+<h1>DATOS PERSONALES DEL PACIENTE</h1>
+        <form>
+    <table>
+     
+        <tr><label for="inDNI">DNI</label></tr>
+        <tr><input type="text" id="inDNI"></tr>
+        <tr><label for="inFoto">Foto</label></tr>
+        <tr><input type="file" id="inFoto"></tr> 
+        <tr><label for="inNombres">Nombres</label></tr>
+        <tr><input type="text" id="inNombres"></tr> 
+        <tr><label for="inApellidos">Apellidos</label></tr>
+        <tr><input type="text" id="inApellidos"></tr> 
+        <tr><label for="inFechadeNacimiento">Fecha de Nacimiento</label></tr>
+        <tr><input type="date" id="inFechadeNacimiento"></tr> 
+        <tr><label for="inSexo">Sexo</label></tr>
+
+        <select id="inSexo">
+                <option value="Seleccione">Seleccione</option>
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+        </select>
+        
+        <tr><label for="inNombredelRepresentante">Nombre del Representante</label></tr>
+        <tr><input type="text" id="inNombredelRepresentante"></tr> 
+        <tr><label for="inTeléfonos">Teléfonos</label></tr>
+        <tr><input type="text" id="inTeléfonos"></tr> 
+        <tr><label for="inSala">Sala</label></tr>
+
+        <select id="inSala">
+                <option value="Seleccione">Seleccione</option>
+                <option value="Emergencia">Emergencia</option>
+                <option value="Sala A">Sala A</option>
+                <option value="Laboratorio">Laboratorio</option>
+                <option value="RayosX">Rayos X</option>
+                <option value="Hospitalizacion">Hospitalización</option>
+        </select>
+        
+        <tr><label for="inDirección">Dirección</label></tr>
+        <textarea cols="10" rows="1"></textarea> 
+            
+        <tr><label for="inPaís">País</label></tr>
+         <select id="inPaís">
+                <option value="Seleccione">Seleccione</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Perú">Perú</option>
+                <option value="Panamá">Panamá</option>
+                <option value="Brasil">Brasil</option>
+        </select>
+        
+        <tr><label for="inDepartamento">Departamento</label></tr>
+        <tr><input type="text" id="inDepartamento"></tr>
+        <tr><label for="inProvincia">Provincia</label></tr>
+        <tr><input type="text" id="inProvincia"></tr> 
+        <tr><label for="inDistrito">Distrito</label></tr>
+        <tr><input type="text" id="inDistrito"></tr> 
+
+        <tr><label for="inEstadoCivil">Estado Civil</label></tr>
+
+        <select id="inEstadoCivil">
+                <option value="Seleccione">Seleccione</option>
+                <option value="Soltero">Soltero</option>
+                <option value="Casado">Casado</option>
+                <option value="Viudo">Viudo</option>
+                <option value="UniónLibre">Unión Libre</option>
+                <option value="Separado">Separado</option>
+                <option value="Divorciado">Divorciado</option>
+        </select>
+        
+        <tr><label for="inEmergencia">Emergencia</label></tr>
+        <textarea cols="10" rows="1"></textarea> 
+             
+          <tr><label for="inGrupoSanguineo">Grupo Sanguíneo</label></tr>
+
+        <select id="inGrupoSanguineo">
+                <option value="Seleccione">Seleccione</option>
+                <option value="A+">A+</option>
+                <option value="B+">B+</option>
+                <option value="AB+">AB+</option>
+                <option value="O+">O+</option>
+                <option value="A-">A-</option>
+                <option value="B-">B-</option>
+                <option value="AB-">AB-</option>
+                <option value="O-">O-</option>|
+        </select>
+        
+
+          <tr><label for="inVIH">VIH</label></tr>
+
+        <select id="inVIH">
+                <option value="Seleccione">Seleccione</option>
+                <option value="Si">Si</option>
+                <option value="No">No</option>
+        </select>
+        
+
+        <tr><label for="inOcupación">Ocupación</label></tr>
+        <tr><input type="text" id="inOcupación"></tr>
+        <tr><label for="inPeso">Peso</label></tr>
+        <tr><input type="text" id="inPeso"></tr> 
+        <tr><label for="inTalla">Talla</label></tr>
+        <tr><input type="text" id="inTalla"></tr> 
+
+         <tr><label for="inAlérgico">Alérgico</label></tr>
+        <textarea cols="10" rows="5"></textarea> 
+
+         <tr><label for="inMedicamentoquetomaactualmente">Medicamento que toma actualmente</label></tr>
+        <textarea cols="10" rows="5"></textarea> 
+
+         <tr><label for="inEnfermedadquetiene">Enfermedad que tiene</label></tr>
+        <textarea cols="10" rows="5"></textarea> 
+
+        <input type="submit" value="Registrar" style="background-color: rgb(8, 135, 246); color: white;">
+        <input type="reset" value="Limpiar" style="background-color: rgb(8, 135, 246); color: white ;">
+
+    </table>
+        </form>
+    
+    </main>
+    
+    
+</body>
+</html>
